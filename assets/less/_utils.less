@@ -64,3 +64,17 @@ span.fix{
 		
 	}
 }
+
+.not-mobile{
+	display: block;
+	@media screen and (max-width: 640px) {
+		display: none;
+	}
+}
+
+.only-mobile{
+	display: none;
+	@media screen and (max-width: 640px) {
+		display: block;
+	}
+}
