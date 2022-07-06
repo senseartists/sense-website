@@ -4,14 +4,14 @@
     <div class="intro-block">
       <p>
         <span class="svg">
-          Paris
+          SENSE
           <img class="paris" src="~/assets/images/svg/circled_1.svg" alt="">
         </span> 
-        based artist and label services 
-        solution created to <span class="svg">
+        is a music release club that
+        lives to <span class="svg">
           empower
           <img class="empower" src="~/assets/images/svg/underline_3.svg" alt="">
-          </span> talents. <br>
+          </span> creators. <br>
 
          <!-- <span class="inline-image">
            <img src="~/assets/images/img-5.jpg" alt="">
@@ -30,10 +30,10 @@
     </div>
   </section> 
 
-  <section class="_inter">
+  <!-- <section class="_inter">
     <img class="not-mobile" src="~/assets/images/gradient.jpg" alt="">
     <img class="only-mobile" src="~/assets/images/gradient_mobile.jpg" alt="">
-  </section> 
+  </section> -->
 
   <!-- <section class="_workwith">
     <h2>we work with</h2>
@@ -115,7 +115,7 @@
     </div>
   </section> -->
 
-  <section class="_moveus">
+  <!-- <section class="_moveus">
     <div class="container">
       <div class="row">
          <div class="column col-6 only-mobile">
@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="_emailus">
     <div class="intro-block">
@@ -142,13 +142,13 @@
           <img class="artist" src="~/assets/images/svg/circled_3.svg" alt="">
          </span>
          <!-- <span class="inline-image"><img src="~/assets/images/img-9.jpg" alt=""></span>  -->
-         a band, a company,
+         a band, a collective,
       <!-- <span class="inline-image"><img src="~/assets/images/img-11.jpg" alt=""></span>  -->
       or if you just want to say hello,
       <!-- <span class="inline-image"><img src="~/assets/images/img-13.jpg" alt=""></span>   -->
       <span class="svg">
-        feel free
-         <img class="feelfree" src="~/assets/images/svg/underline_2.svg" alt="">
+          drop us a line
+          <img class="feelfree" src="~/assets/images/svg/underline_2.svg" alt="">
         </span> :
       </p>
 
@@ -170,7 +170,7 @@
         </span>
 
         <nav class="links">
-          <a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank">About</a>
+          <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank">About</a>-->
           <a href="https://senseartists.disco.ac/lib/6196" target="_blank">Sync</a>
           <a href="http://eepurl.com/h0CllP" target="_blank">Newsletter</a>
         </nav>

@@ -33,7 +33,7 @@
                         </g>
                         </svg>
                     </NuxtLink>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc833ZxiyQkrIhwhCApd8hUKXuK60NLWcMWnwrJSUI6r9q5WA/viewform" class="email" target="_blank">submit your <span>music<img src="~/assets/images/svg/send_music.svg" alt=""></span></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc833ZxiyQkrIhwhCApd8hUKXuK60NLWcMWnwrJSUI6r9q5WA/viewform" class="email" target="_blank">join the <span>club<img src="~/assets/images/svg/send_music.svg" alt=""></span></a>
                 </div>
                 
             </div>
