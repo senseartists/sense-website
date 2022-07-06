@@ -166,7 +166,7 @@
         </span>
 
         <span class="logo-footer">
-          <img src="~/assets/images/svg/logo_footer.svg" alt="">
+          <img src="~/assets/images/svg/logo.svg" alt="">
         </span>
 
         <nav class="links">
@@ -178,9 +178,9 @@
           <a href="https://www.instagram.com/senseartists/" target="_blank">
             <img src="~/assets/images/svg/instagram.svg" alt="">
           </a>
-          <a href="https://discord.gg/uvmEkf55vx" target="_blank">
+          <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank">
               <img src="~/assets/images/svg/discord.svg" alt="">
-          </a>
+          </a>-->
           <a href="https://twitter.com/senseartists" target="_blank">
               <img src="~/assets/images/svg/twitter.svg" alt="">
           </a>
