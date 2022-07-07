@@ -64,6 +64,7 @@ header{
 	height: 120px;
 	//background: @black;
 	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	z-index: 100;
@@ -132,7 +133,7 @@ header{
 section {
 	&._intro{
 		height: auto;
-		padding: 200px 0;
+		padding: 50px 0 150px 0;
 		width: 100%;
 		.intro-block{
 			width: 80%;
@@ -141,7 +142,7 @@ section {
 			p{
 				color:@white;
 				font-size: 5vw;
-				line-height: 5vw;
+				line-height: 5.5vw;
 				@media screen and (max-width: 768px) {
 					font-size: 10vw;
 					line-height: 10vw;
@@ -156,7 +157,7 @@ section {
 							left: 0;
 							&.paris{
 								left: -5%;
-								top: -60%;
+								top: -50%;
 								width: 112%;
 							}
 							&.empower{
@@ -313,14 +314,14 @@ section {
 		background: @white;
 		padding: 150px 0 50px;
 		.intro-block{
-			width: 90%;
+			width: 80%;
 			position: relative;
 			margin: 0 auto;
 			text-align: center;
 			p{
 				color:@black;
-				font-size: 6vw;
-				line-height: 6.5vw;
+				font-size: 5vw;
+				line-height: 5.5vw;
 				text-align: left;
 				@media screen and (max-width: 768px) {
 					font-size: 12vw;
@@ -397,8 +398,7 @@ section {
 
 
 footer {
-	height: 80vh;
-	position: relative;
+	padding-bottom: 4em;
 	@media screen and (max-width: 640px) {
 		height: auto;
 	}
@@ -407,13 +407,12 @@ footer {
 		height: 100%;
 	}
 	nav{
-		position: absolute;
 		@media screen and (max-width: 640px) {
 			position: relative;
 			margin-bottom: 20px;
 		}
 		&.links{
-			bottom: 20%;
+			margin: 4em auto 0 0;
 			a {
 				font-size: 3vw;
 				line-height: 3.5vw;
@@ -434,7 +433,7 @@ footer {
 
 		}
 		&.social{
-			bottom: 10%;
+			margin-top: 2em;
 			a {
 				width: 30px;
 				display: inline-block;
@@ -454,11 +453,7 @@ footer {
 		&.footer-line{
 			width: 50%;
 			display: block;
-			position: absolute;
-			top: 10%;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
+			margin: 4em auto 0 auto;
 			@media screen and (max-width: 640px) {
 				width: 70%;
 				position: relative;
@@ -470,10 +465,8 @@ footer {
 		}	
 		&.logo-footer{
 			width: 250px;
-			position: absolute;
-			right: 0;
-			top: 30%;
 			display: block;
+			margin: 4em 0 0 auto;
 			@media screen and (max-width: 640px) {
 				position: relative;
 				margin-bottom: 50px;
@@ -483,14 +476,14 @@ footer {
 			}
 		}
 		&.copyright {
+			display: block;
+			width: 100%;
+			text-align: right;
 			@media screen and (max-width: 640px) {
 				position: relative;
 				display: block;
 				margin-bottom: 50px;
 			}
-			position: absolute;
-			bottom: 10%;
-			right: 0;
 			color: @white;
 			font-size: 18px;
 		}

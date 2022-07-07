@@ -166,7 +166,7 @@
         </span>
 
         <span class="logo-footer">
-          <img src="~/assets/images/svg/logo.svg" alt="">
+          <img src="~/assets/images/svg/logo_music_release_club.svg" alt="">
         </span>
 
         <nav class="links">
