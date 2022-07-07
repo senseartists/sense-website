@@ -7,21 +7,22 @@
           SENSE
           <img class="paris" src="~/assets/images/svg/circled_1.svg" alt="">
         </span> 
-        is a music release club that
-        lives to <span class="svg">
+        is an international music release club
+        providing support
+        <!--<span class="svg">
           empower
           <img class="empower" src="~/assets/images/svg/underline_3.svg" alt="">
-          </span> creators. <br>
+        </span>-->
+        for independent labels, artists and music professionals. <br>
 
-         <!-- <span class="inline-image">
-           <img src="~/assets/images/img-5.jpg" alt="">
-          </span>  -->
-          Deeply committed to independence 
+        <!-- <span class="inline-image">
+          <img src="~/assets/images/img-5.jpg" alt="">
+        </span> -->
+        Deeply committed to independence 
         and <span class="svg">
           creativity.
           <img class="creativity" src="~/assets/images/svg/underline_1.svg" alt="">
-          </span> <br> Serving music + artists 
-        interests.
+          </span>
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-8.jpg" alt="">
         </span> -->
@@ -161,36 +162,41 @@
   <footer>
     <div class="container">
 
-        <span class="footer-line">
-          <img src="~/assets/images/svg/footer_line.svg" alt="">
-        </span>
+      <span class="footer-line">
+        <img src="~/assets/images/svg/footer_line.svg" alt="">
+      </span>
 
-        <span class="logo-footer">
-          <img src="~/assets/images/svg/logo_music_release_club.svg" alt="">
-        </span>
-
-        <nav class="links">
-          <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank">About</a>-->
-          <a href="https://senseartists.disco.ac/lib/6196" target="_blank">Sync</a>
-          <a href="http://eepurl.com/h0CllP" target="_blank">Newsletter</a>
-        </nav>
-        <nav class="social">
-          <a href="https://www.instagram.com/senseartists/" target="_blank">
-            <img src="~/assets/images/svg/instagram.svg" alt="">
-          </a>
-          <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank">
+      <div>
+        <div>
+          <nav class="links">
+            <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank">About</a>-->
+            <a href="https://senseartists.disco.ac/lib/6196" target="_blank">Sync</a>
+            <a href="http://eepurl.com/h0CllP" target="_blank">Newsletter</a>
+          </nav>
+          <nav class="social">
+            <a href="https://www.instagram.com/senseartists/" target="_blank">
+              <img src="~/assets/images/svg/instagram.svg" alt="">
+            </a>
+            <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank">
               <img src="~/assets/images/svg/discord.svg" alt="">
-          </a>-->
-          <a href="https://twitter.com/senseartists" target="_blank">
+            </a>-->
+            <a href="https://twitter.com/senseartists" target="_blank">
               <img src="~/assets/images/svg/twitter.svg" alt="">
-          </a>
-        </nav>
-    
-        
+            </a>
+          </nav>
+        </div>
 
-        <span class="copyright">
-          SENSE, all rights reserved ©2022
-        </span>
+        <div>
+          <span class="logo-footer">
+            <img src="~/assets/images/svg/logo.svg" alt="">
+            <span>music release club</span>
+          </span>
+          <span class="copyright">
+            SENSE, all rights reserved ©2022
+          </span>
+        </div>
+      </div>
+
     </div>
       
   </footer>

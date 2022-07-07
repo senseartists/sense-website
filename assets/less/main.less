@@ -94,7 +94,12 @@ header{
 						fill: @white;
 					}
 				}
-				
+				span {
+					font-size: 15px;
+					margin-top: -3px;
+					display: block;
+					text-align: center;
+				}
 			}
 			&.email {
 				position: absolute;
@@ -398,13 +403,20 @@ section {
 
 
 footer {
-	padding-bottom: 4em;
+	padding: 2em 0 4em 0;
+	color: @white;
 	@media screen and (max-width: 640px) {
 		height: auto;
 	}
 	.container{
 		position: relative;
 		height: 100%;
+		> div {
+			display: flex;
+			> * {
+				flex: 1;
+			}
+		}
 	}
 	nav{
 		@media screen and (max-width: 640px) {
@@ -412,7 +424,7 @@ footer {
 			margin-bottom: 20px;
 		}
 		&.links{
-			margin: 4em auto 0 0;
+			margin: 2em auto 0 0;
 			a {
 				font-size: 3vw;
 				line-height: 3.5vw;
@@ -453,7 +465,7 @@ footer {
 		&.footer-line{
 			width: 50%;
 			display: block;
-			margin: 4em auto 0 auto;
+			margin: 2em auto;
 			@media screen and (max-width: 640px) {
 				width: 70%;
 				position: relative;
@@ -466,7 +478,7 @@ footer {
 		&.logo-footer{
 			width: 250px;
 			display: block;
-			margin: 4em 0 0 auto;
+			margin: 2em 0 0 auto;
 			@media screen and (max-width: 640px) {
 				position: relative;
 				margin-bottom: 50px;
@@ -474,17 +486,23 @@ footer {
 			img {
 				width: 100%;
 			}
+			span {
+				font-size: 25px;
+				margin-top: -5px;
+				display: block;
+				text-align: center;
+			}
 		}
 		&.copyright {
 			display: block;
 			width: 100%;
 			text-align: right;
+			margin-top: 2em;
 			@media screen and (max-width: 640px) {
 				position: relative;
 				display: block;
 				margin-bottom: 50px;
 			}
-			color: @white;
 			font-size: 18px;
 		}
 	}
