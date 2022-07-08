@@ -7,14 +7,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'SENSE',
+    title: 'SENSE - music release club',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'SENSE: music release club' },
+      { hid: 'description', name: 'description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
       { name: 'keywords', content: 'sense,artists,music,release,club,labels,services' },
       { name: 'robots', content: 'index, follow' },
       { name: 'category', content: 'music' },
@@ -25,28 +25,27 @@ export default {
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-title', content: 'SENSE' },
-      { name: 'og:title', content: 'SENSE' },
+      { name: 'og:title', content: 'SENSE: music release club' },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://senseartists.com' },
       { name: 'og:image', content: 'https://senseartists.com/favicon.png' },
-      { name: 'og:description', content: 'SENSE: music release club' },
+      { name: 'og:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
       { name: 'og:site_name', content: 'SENSE' },
       { name: 'og:locale', content: 'en_US' },
       { name: 'og:locale:alternate', content: 'en_US' },
       { name: 'twitter:creator', content: '@senseartists' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@senseartists' },
-      { name: 'twitter:title', content: 'SENSE' },
-      { name: 'twitter:description', content: 'SENSE: music release club' },
+      { name: 'twitter:title', content: 'SENSE: music release club' },
+      { name: 'twitter:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
       { name: 'twitter:image', content: 'https://senseartists.com/favicon.png' },
       { name: 'twitter:image:alt', content: 'SENSE website' },
-      { name: 'application:name', content: 'SENSE' },
-
+      { name: 'application:name', content: 'SENSE' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
-
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'canonical', href: 'https://senseartists.com' }
     ]
   },
 

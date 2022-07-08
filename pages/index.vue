@@ -2,11 +2,11 @@
   <div>
     <section class="_intro">
     <div class="intro-block">
-      <p>
+      <h1>
         <span class="svg">
           SENSE
           <img class="paris" src="~/assets/images/svg/circled_1.svg" width="0" alt="">
-        </span> 
+        </span>
         is an international music release club
         providing support
         <!--<span class="svg">
@@ -27,7 +27,7 @@
           <img src="~/assets/images/img-8.jpg" alt="">
         </span> -->
 
-      </p>
+      </h1>
     </div>
   </section> 
 
