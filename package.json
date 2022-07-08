@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.19.3",
     "less": "^4.1.2",
     "less-loader": "^7",
