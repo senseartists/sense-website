@@ -5,13 +5,13 @@
       <p>
         <span class="svg">
           SENSE
-          <img class="paris" src="~/assets/images/svg/circled_1.svg" alt="">
+          <img class="paris" src="~/assets/images/svg/circled_1.svg" width="0" alt="">
         </span> 
         is an international music release club
         providing support
         <!--<span class="svg">
           empower
-          <img class="empower" src="~/assets/images/svg/underline_3.svg" alt="">
+          <img class="empower" src="~/assets/images/svg/underline_3.svg" width="0" alt="">
         </span>-->
         for independent labels, artists and music initiatives. <br>
 
@@ -21,7 +21,7 @@
         <!-- Deeply committed to independence 
         and <span class="svg">
           creativity.
-          <img class="creativity" src="~/assets/images/svg/underline_1.svg" alt="">
+          <img class="creativity" src="~/assets/images/svg/underline_1.svg" width="0" alt="">
           </span> -->
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-8.jpg" alt="">
@@ -38,7 +38,7 @@
 
   <!-- <section class="_workwith">
     <h2>we work with</h2>
-    <img src="~/assets/images/svg/smiley.svg" alt="">
+    <img src="~/assets/images/svg/smiley.svg" width="0" alt="">
     <div class="row">
       
       <div class="column col-3">
@@ -135,7 +135,7 @@
   </section> -->
 
   <section class="_gif">
-    <img src="~/assets/images/01_GIF_OG_transparent.gif">
+    <img src="~/assets/images/01_GIF_OG_transparent.gif" width="600" alt="">
   </section>
 
   <!-- <section class="_emailus">
@@ -144,19 +144,19 @@
 
        If you're <span class="svg">
           an artist, 
-          <img class="artist" src="~/assets/images/svg/circled_3.svg" alt="">
+          <img class="artist" src="~/assets/images/svg/circled_3.svg" width="0" alt="">
          </span>
          a band, a collective,
       or if you just want to say hello,
       <span class="svg">
           drop us a line
-          <img class="feelfree" src="~/assets/images/svg/underline_2.svg" alt="">
+          <img class="feelfree" src="~/assets/images/svg/underline_2.svg" width="0" alt="">
         </span> :
       </p>
 
-      <a href="mailto:contact@senseartists.com" target="_blank">e-mail us</a>
+      <a href="mailto:contact@senseartists.com" target="_blank" title="e-mail us">e-mail us</a>
 
-      <img src="~/assets/images/svg/spam.svg" alt="" class="spam">
+      <img src="~/assets/images/svg/spam.svg" width="0" alt="" class="spam">
     </div>
   </section>-->
 
@@ -164,35 +164,35 @@
     <div class="container">
 
       <span class="footer-line">
-        <img src="~/assets/images/svg/footer_line.svg" alt="">
+        <img src="~/assets/images/svg/footer_line.svg" width="600" alt="">
       </span>
 
       <div>
         <div>
           <nav class="links">
-            <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank">About</a>-->
-            <a href="https://senseartists.disco.ac/lib/6196" target="_blank">Sync</a>
-            <a href="http://eepurl.com/h0CllP" target="_blank">Newsletter</a>
+            <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank" title="about">About</a>-->
+            <a href="https://senseartists.disco.ac/lib/6196" target="_blank" title="sync">Sync</a>
+            <a href="http://eepurl.com/h0CllP" target="_blank" title="newsletter">Newsletter</a>
           </nav>
           <nav class="social">
-            <a href="https://liinks.co/senseartists" target="_blank">
-              <img src="~/assets/images/svg/liinks.svg" alt="">
+            <a href="https://liinks.co/senseartists" target="_blank" title="liikns">
+              <img src="~/assets/images/svg/liinks.svg" width="30" alt="liinks">
             </a>
-            <a href="https://www.instagram.com/senseartists/" target="_blank">
-              <img src="~/assets/images/svg/instagram.svg" alt="">
+            <a href="https://www.instagram.com/senseartists/" target="_blank" title="instagram">
+              <img src="~/assets/images/svg/instagram.svg" width="30" alt="instagram">
             </a>
-            <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank">
-              <img src="~/assets/images/svg/discord.svg" alt="">
+            <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank" title="discord">
+              <img src="~/assets/images/svg/discord.svg" width="30" alt="discord">
             </a>-->
-            <a href="https://twitter.com/senseartists" target="_blank">
-              <img src="~/assets/images/svg/twitter.svg" alt="">
+            <a href="https://twitter.com/senseartists" target="_blank" title="twitter">
+              <img src="~/assets/images/svg/twitter.svg" width="30" alt="" title="twitter">
             </a>
           </nav>
         </div>
 
         <div>
           <span class="logo-footer">
-            <img src="~/assets/images/svg/logo.svg" alt="">
+            <img src="~/assets/images/svg/logo.svg" width="250" alt="">
             <span>music release club</span>
           </span>
           <span class="copyright">

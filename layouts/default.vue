@@ -8,7 +8,7 @@
                         <img src="~/assets/images/svg/logo.svg" width="466" alt="SENSE" />
                         <span>music release club</span>
                     </NuxtLink>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc833ZxiyQkrIhwhCApd8hUKXuK60NLWcMWnwrJSUI6r9q5WA/viewform" class="email" target="_blank">join</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc833ZxiyQkrIhwhCApd8hUKXuK60NLWcMWnwrJSUI6r9q5WA/viewform" class="email" target="_blank" title="join">join</a>
                 </div>
                 
             </div>
