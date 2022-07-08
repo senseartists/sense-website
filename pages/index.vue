@@ -13,16 +13,16 @@
           empower
           <img class="empower" src="~/assets/images/svg/underline_3.svg" alt="">
         </span>-->
-        for independent labels, artists and music professionals. <br>
+        for independent labels, artists and music initiatives. <br>
 
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-5.jpg" alt="">
         </span> -->
-        Deeply committed to independence 
+        <!-- Deeply committed to independence 
         and <span class="svg">
           creativity.
           <img class="creativity" src="~/assets/images/svg/underline_1.svg" alt="">
-          </span>
+          </span> -->
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-8.jpg" alt="">
         </span> -->
@@ -134,7 +134,11 @@
     </div>
   </section> -->
 
-  <section class="_emailus">
+  <section class="_gif">
+    <img src="~/assets/images/01_GIF_OG_transparent.gif">
+  </section>
+
+  <!-- <section class="_emailus">
     <div class="intro-block">
       <p>
 
@@ -142,11 +146,8 @@
           an artist, 
           <img class="artist" src="~/assets/images/svg/circled_3.svg" alt="">
          </span>
-         <!-- <span class="inline-image"><img src="~/assets/images/img-9.jpg" alt=""></span>  -->
          a band, a collective,
-      <!-- <span class="inline-image"><img src="~/assets/images/img-11.jpg" alt=""></span>  -->
       or if you just want to say hello,
-      <!-- <span class="inline-image"><img src="~/assets/images/img-13.jpg" alt=""></span>   -->
       <span class="svg">
           drop us a line
           <img class="feelfree" src="~/assets/images/svg/underline_2.svg" alt="">
@@ -157,7 +158,7 @@
 
       <img src="~/assets/images/svg/spam.svg" alt="" class="spam">
     </div>
-  </section>
+  </section>-->
 
   <footer>
     <div class="container">
@@ -174,6 +175,9 @@
             <a href="http://eepurl.com/h0CllP" target="_blank">Newsletter</a>
           </nav>
           <nav class="social">
+            <a href="https://liinks.co/senseartists" target="_blank">
+              <img src="~/assets/images/svg/liinks.svg" alt="">
+            </a>
             <a href="https://www.instagram.com/senseartists/" target="_blank">
               <img src="~/assets/images/svg/instagram.svg" alt="">
             </a>
