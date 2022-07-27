@@ -25,7 +25,9 @@
 html,
 body{
 	overflow: hidden;
-	background: @black;
+	background-color: @black;
+	background-image: url('~/assets/images/grad.jpg');
+	background-size: 100%;
 }
 
 *{
@@ -41,6 +43,11 @@ html {
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 	height: 100vh;
+
+	>div {
+		background-image: url('~/assets/images/grad.jpg');
+		background-size: cover;
+	}
 
 }
 
@@ -62,14 +69,13 @@ Utils
 header{
 	width: 100%;
 	height: 120px;
-	//background: @black;
 	position: fixed;
 	position: sticky;
 	top: 0;
 	left: 0;
 	z-index: 100;
 	//border-bottom: solid 1px @white;
-	background: @black;
+	//background: @black;
 	.column, .row, .container{
 		position: relative;
 		display: block;
@@ -422,6 +428,8 @@ section {
 footer {
 	padding: 2em 0 4em 0;
 	color: @white;
+	background-color: @black;
+	margin-bottom: .5rem;
 	@media screen and (max-width: 640px) {
 		height: auto;
 	}

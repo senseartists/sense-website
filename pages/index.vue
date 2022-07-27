@@ -134,9 +134,9 @@
     </div>
   </section> -->
 
-  <section class="_gif">
+  <!--<section class="_gif">
     <img src="~/assets/images/01_GIF_OG_transparent.gif" width="600" alt="">
-  </section>
+  </section>-->
 
   <!-- <section class="_emailus">
     <div class="intro-block">
