@@ -27,8 +27,8 @@ export default {
       { name: 'apple-mobile-web-app-title', content: 'SENSE' },
       { name: 'og:title', content: 'SENSE: music release club' },
       { name: 'og:type', content: 'website' },
-      { name: 'og:url', content: 'https://senseartists.com' },
-      { name: 'og:image', content: 'https://senseartists.com/favicon.png' },
+      { name: 'og:url', content: 'https://senseartists.club' },
+      { name: 'og:image', content: 'https://senseartists.club/favicon.png' },
       { name: 'og:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
       { name: 'og:site_name', content: 'SENSE' },
       { name: 'og:locale', content: 'en_US' },
@@ -38,14 +38,14 @@ export default {
       { name: 'twitter:site', content: '@senseartists' },
       { name: 'twitter:title', content: 'SENSE: music release club' },
       { name: 'twitter:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
-      { name: 'twitter:image', content: 'https://senseartists.com/favicon.png' },
+      { name: 'twitter:image', content: 'https://senseartists.club/favicon.png' },
       { name: 'twitter:image:alt', content: 'SENSE website' },
       { name: 'application:name', content: 'SENSE' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-      { rel: 'canonical', href: 'https://senseartists.com' }
+      { rel: 'canonical', href: 'https://senseartists.club' }
     ]
   },
 
@@ -74,7 +74,7 @@ export default {
 
   // Configuration du module sitemap
   sitemap: {
-    hostname: 'https://senseartists.com',
+    hostname: 'https://senseartists.club',
     gzip: true,
     routes : ['/']
   },
