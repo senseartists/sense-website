@@ -1,19 +1,30 @@
 <template>
   <div>
     <section class="_intro">
-    <div class="intro-block">
-      <h1>
-        <span class="svg">
+      <a href="https://menaceparis.bandcamp.com">
+        <img src="~/assets/images/og/label.png" class="og-image only-desktop" style="left:5%;bottom:1%;" />
+      </a>
+      <img src="~/assets/images/og/publishing.png" class="og-image only-desktop" style="left:32.33%;bottom:1%;" />
+      <img src="~/assets/images/og/web3.png" class="og-image only-desktop" style="left:59.66%;bottom:1%;" />
+      <img src="~/assets/images/og/creative.png" class="og-image only-desktop" style="left:87%;top:9%;" />
+      <img src="~/assets/images/og/distrib.png" class="og-image only-desktop" style="left:87%;top:54%;top:calc(54% - 0.04 * (100vh - 120px));" />
+      <img src="~/assets/images/og/management.png" class="og-image only-desktop" style="left:87%;bottom:1%;" />
+      <div class="intro-block" style="position:relative">
+        <h1>
+        <!--<span class="svg">-->
           SENSE
-          <img class="paris" src="~/assets/images/svg/circled_1.svg" width="0" alt="">
-        </span>
-        is an international music release club
-        providing support
+          <!--<img class="paris" src="~/assets/images/svg/circled_1.svg" width="0" alt="">
+        </span>-->
+        is a music release club,<br />
+        an international network who<br />
+        provides support
         <!--<span class="svg">
           empower
           <img class="empower" src="~/assets/images/svg/underline_3.svg" width="0" alt="">
         </span>-->
-        for independent labels, artists and music initiatives. <br>
+        for independent<br />
+        artists, labels and music initiatives.<br />
+        <span class="only-desktop">Currently soft-launching.</span>
 
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-5.jpg" alt="">
@@ -172,38 +183,60 @@
           <nav class="links">
             <!--<a href="https://docs.google.com/document/d/10Z-vPzywWOAae3DTENmcWiVupeo73sbYyjb2EHIgq_Q/edit?usp=sharing" target="_blank" title="about">About</a>-->
             <a href="https://senseartists.disco.ac/lib/6196" target="_blank" title="sync">Sync</a>
+            <a href="https://docs.google.com/document/d/18xcWoAGDfnXQ00mfO4ADtklw7D6CsgNmxIzwXbb0DYk/edit?usp=sharing" target="_blank" title="about">About</a>
             <a href="http://eepurl.com/h0CllP" target="_blank" title="newsletter">Newsletter</a>
           </nav>
-          <nav class="social">
-            <a href="https://liinks.co/senseartists" target="_blank" title="liikns">
-              <img src="~/assets/images/svg/liinks.svg" width="30" alt="liinks">
+        </div>
+
+        <!--<div class="og-images">
+          <img src="~/assets/images/og/label.png" class="og-image" />
+          <img src="~/assets/images/og/publishing.png" class="og-image" />
+          <img src="~/assets/images/og/web3.png" class="og-image" />
+          <img src="~/assets/images/og/creative.png" class="og-image" />
+          <img src="~/assets/images/og/management.png" class="og-image" />
+          <img src="~/assets/images/og/distrib.png" class="og-image" />
+        </div>-->
+
+        <!--<img src="~/assets/images/mini-logo-white.png" style="width:4em" />-->
+
+        <div>
+          <!--<span class="logo-footer">
+            <img src="~/assets/images/svg/logo.svg" width="250" alt="">
+            <span>music release club</span>
+          </span>-->
+          <!--<img class="mini-logo" src="~/assets/images/mini-logo.png" />-->
+          <!--<span class="copyright">
+            SENSE, all rights reserved ©2022
+          </span>-->
+          <!--<nav class="social">
+            <a href="https://open.spotify.com/playlist/095cXh14FXmEIhfjW5xlzf" target="_blank" title="spotify">
+              <img src="~/assets/images/svg/spotify.svg" width="30" alt="spotify" title="spotify">
+            </a>
+            <a href="https://twitter.com/senseartists" target="_blank" title="twitter">
+              <img src="~/assets/images/svg/twitter.svg" width="30" alt="twitter" title="twitter">
             </a>
             <a href="https://www.instagram.com/senseartists/" target="_blank" title="instagram">
               <img src="~/assets/images/svg/instagram.svg" width="30" alt="instagram">
             </a>
-            <!--<a href="https://discord.gg/uvmEkf55vx" target="_blank" title="discord">
+            <a href="https://discord.gg/uvmEkf55vx" target="_blank" title="discord">
               <img src="~/assets/images/svg/discord.svg" width="30" alt="discord">
-            </a>-->
-            <a href="https://twitter.com/senseartists" target="_blank" title="twitter">
-              <img src="~/assets/images/svg/twitter.svg" width="30" alt="" title="twitter">
             </a>
+            <a href="https://liinks.co/senseartists" target="_blank" title="liikns">
+              <img src="~/assets/images/svg/liinks.svg" width="30" alt="liinks">
+            </a>
+          </nav>-->
+          <nav class="links right">
+            <a href="https://open.spotify.com/playlist/095cXh14FXmEIhfjW5xlzf" target="_blank" title="spotify">Playlists</a>
+            <a href="https://twitter.com/senseartists" target="_blank" title="twitter">Socials</a>
+            <a href="https://liinks.co/senseartists" target="_blank" title="liinks">Links</a>
           </nav>
-        </div>
-
-        <div>
-          <span class="logo-footer">
-            <img src="~/assets/images/svg/logo.svg" width="250" alt="">
-            <span>music release club</span>
-          </span>
-          <span class="copyright">
-            SENSE, all rights reserved ©2022
-          </span>
         </div>
       </div>
 
     </div>
       
   </footer>
+  <div class="hr"></div>
 
 
 

@@ -26,8 +26,6 @@ html,
 body{
 	overflow: hidden;
 	background-color: @black;
-	background-image: url('~/assets/images/grad.jpg');
-	background-size: 100%;
 }
 
 *{
@@ -47,6 +45,9 @@ html {
 	>div {
 		background-image: url('~/assets/images/grad.jpg');
 		background-size: cover;
+		background-blend-mode: multiply;
+    	background-color: #ccc;
+		padding-bottom: .5rem;
 	}
 
 }
@@ -69,8 +70,8 @@ Utils
 header{
 	width: 100%;
 	height: 120px;
-	position: fixed;
-	position: sticky;
+	//position: fixed;
+	//position: sticky;
 	top: 0;
 	left: 0;
 	z-index: 100;
@@ -99,9 +100,13 @@ header{
 				}
 				span {
 					font-size: 15px;
+					line-height: 1;
 					margin-top: -3px;
 					display: block;
 					text-align: center;
+				}
+				&:hover {
+					transform: scale(1.1) translateY(-50%);
 				}
 				@media screen and (max-width: 640px) {
 					width: 100px;
@@ -122,6 +127,7 @@ header{
 				text-align: center;
 				@media screen and (max-width: 640px) {
 					padding: 5px 10px;
+					font-size: 15px;
 				}
 				&:hover {
 					cursor: pointer;
@@ -148,12 +154,26 @@ header{
 
 section {
 	&._intro{
+		position: relative;
 		height: auto;
-		padding: 150px 0;
+		padding-bottom: 12%;
+		padding-top: 4%;
 		width: 100%;
+		height: calc(100vh - 120px);
+		.og-image {
+			width: 8%;
+			position: absolute;
+			filter: invert(1);
+			transition: transform .3s ease;
+			z-index: 5;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
 		.intro-block{
-			width: 80%;
-			position: relative;
+			top: 50%;
+    		transform: translateY(-50%);
+			width: 90%;
 			margin: 0 auto;
 			h1{
 				color:@white;
@@ -426,10 +446,10 @@ section {
 
 
 footer {
-	padding: 2em 0 4em 0;
+	padding: 1em 0 1em 0;
 	color: @white;
-	background-color: @black;
-	margin-bottom: .5rem;
+	//background-color: #fff;
+	margin: 0 .5rem;
 	@media screen and (max-width: 640px) {
 		height: auto;
 	}
@@ -440,9 +460,21 @@ footer {
 			display: flex;
 			> * {
 				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
 			}
 			@media screen and (max-width: 640px) {
 				flex-direction: column;
+			}
+			.og-images {
+				flex-direction: row;
+				align-items: end;
+				img {
+					width: 8%;
+					filter: invert(1);
+					flex: 1;
+				}
 			}
 		}
 	}
@@ -452,7 +484,14 @@ footer {
 			margin-bottom: 20px;
 		}
 		&.links{
-			margin: 2em auto 0 0;
+			margin: 0 auto 0 0;
+			&.right {
+				margin: 0 0 0 auto;
+				transform: scaleX(-1);
+			}
+			:hover {
+				padding: 0 1rem;
+			}
 			a {
 				font-size: 3vw;
 				line-height: 3.5vw;
@@ -461,6 +500,11 @@ footer {
 				display: block;
 				text-decoration: none;
 				transition: .3s ease;
+				/*background-image: url(/_nuxt/assets/images/grad.jpg);
+				background-clip: text;
+				-webkit-background-clip: text;
+				color: transparent;
+				background-size: 100%;*/
 				&:hover{
 					opacity: .5;
 					cursor: pointer;
@@ -473,7 +517,9 @@ footer {
 
 		}
 		&.social{
-			margin-top: 2em;
+			margin-top: .5em;
+			margin-bottom: .5em;
+			margin-left: auto;
 			a {
 				width: 30px;
 				display: inline-block;
@@ -488,13 +534,20 @@ footer {
 					vertical-align: middle;
 				}
 			}
+			@media screen and (max-width: 640px) {
+				margin-left: 0;
+				a {
+					width: 25px;
+					margin-right: 25px;
+				}
+			}
 		}
 	}
 	span{
 		&.footer-line{
 			width: 50%;
 			display: block;
-			margin: 2em auto;
+			margin: 0 auto 0em auto;
 			@media screen and (max-width: 640px) {
 				width: 70%;
 				position: relative;
@@ -535,8 +588,20 @@ footer {
 			font-size: 18px;
 		}
 	}
+	.mini-logo {
+		display: block;
+    	height: 2em;
+		margin-left: auto;
+		filter: invert(1);
+	}
 }
 
+
+.only-desktop {
+	@media screen and (max-width: 640px) {
+		display: none;
+	}
+} 
 
 //page transition
 @t-duration: 1200ms;

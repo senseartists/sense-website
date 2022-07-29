@@ -14,7 +14,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
+      { hid: 'description', name: 'description', content: 'SENSE is an international music release club-providing support for independent artists, labels and music initiatives.' },
       { name: 'keywords', content: 'sense,artists,music,release,club,labels,services' },
       { name: 'robots', content: 'index, follow' },
       { name: 'category', content: 'music' },
@@ -29,7 +29,7 @@ export default {
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://senseartists.club' },
       { name: 'og:image', content: 'https://senseartists.club/favicon.png' },
-      { name: 'og:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
+      { name: 'og:description', content: 'SENSE is an international music release club-providing support for independent artists, labels and music initiatives.' },
       { name: 'og:site_name', content: 'SENSE' },
       { name: 'og:locale', content: 'en_US' },
       { name: 'og:locale:alternate', content: 'en_US' },
@@ -37,7 +37,7 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@senseartists' },
       { name: 'twitter:title', content: 'SENSE: music release club' },
-      { name: 'twitter:description', content: 'SENSE is an international music release club providing support for independent labels, artists and music initiatives.' },
+      { name: 'twitter:description', content: 'SENSE is an international music release club providing-support for independent artists, labels and music initiatives.' },
       { name: 'twitter:image', content: 'https://senseartists.club/favicon.png' },
       { name: 'twitter:image:alt', content: 'SENSE website' },
       { name: 'application:name', content: 'SENSE' }
