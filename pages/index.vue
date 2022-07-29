@@ -4,11 +4,11 @@
       <a href="https://menaceparis.bandcamp.com">
         <img src="~/assets/images/og/label.png" class="og-image only-desktop" style="left:5%;bottom:1%;" />
       </a>
-      <img src="~/assets/images/og/publishing.png" class="og-image only-desktop" style="left:32.33%;bottom:1%;" />
-      <img src="~/assets/images/og/web3.png" class="og-image only-desktop" style="left:59.66%;bottom:1%;" />
-      <img src="~/assets/images/og/creative.png" class="og-image only-desktop" style="left:87%;top:9%;" />
-      <img src="~/assets/images/og/distrib.png" class="og-image only-desktop" style="left:87%;top:54%;top:calc(54% - 0.04 * (100vh - 120px));" />
-      <img src="~/assets/images/og/management.png" class="og-image only-desktop" style="left:87%;bottom:1%;" />
+      <img src="~/assets/images/og/publishing.png" class="og-image only-desktop" style="left:32.66%;bottom:1%;" />
+      <img src="~/assets/images/og/web3.png" class="og-image only-desktop" style="left:60.33%;bottom:1%;" />
+      <img src="~/assets/images/og/creative.png" class="og-image only-desktop" style="left:88%;top:9%;" />
+      <img src="~/assets/images/og/distrib.png" class="og-image only-desktop" style="left:88%;top:53.5%;top:calc(53.5% - 0.04 * (100vh - 120px));" />
+      <img src="~/assets/images/og/management.png" class="og-image only-desktop" style="left:88%;bottom:1%;" />
       <div class="intro-block" style="position:relative">
         <h1>
         <!--<span class="svg">-->
