@@ -12,7 +12,7 @@
       <div class="intro-block" style="position:relative">
         <h1>
         <!--<span class="svg">-->
-          SENSE
+          SENSEEEE
           <!--<img class="paris" src="~/assets/images/svg/circled_1.svg" width="0" alt="">
         </span>-->
         is a music release club,<br />
