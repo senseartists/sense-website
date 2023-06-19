@@ -24,7 +24,7 @@
         </span>-->
         for independent<br />
         artists, labels and music initiatives.<br />
-      <!--  <span class="only-desktop">Currently soft-launching.</span> -->
+      <!-- <span class="only-desktop">Currently soft-launching.</span> -->
 
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-5.jpg" alt="">
