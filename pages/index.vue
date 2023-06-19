@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="_intro">
+    <section class="_intro" :class="{ 'hide': !showContent, 'show': showContent }">
       <a href="https://menaceparis.bandcamp.com">
         <img src="~/assets/images/og/label.png" class="og-image only-desktop" style="left:5%;bottom:1%;" />
       </a>
@@ -10,6 +10,7 @@
       <img src="~/assets/images/og/distrib.png" class="og-image only-desktop" style="left:88%;top:53.5%;top:calc(53.5% - 0.04 * (100vh - 120px));" />
       <img src="~/assets/images/og/management.png" class="og-image only-desktop" style="left:88%;bottom:1%;" />
       <div class="intro-block" style="position:relative">
+        
         <h1>
         <!--<span class="svg">-->
           SENSE
@@ -24,7 +25,7 @@
         </span>-->
         for independent<br />
         artists, labels and music initiatives.<br />
-      <!-- <span class="only-desktop">Currently soft-launching.</span> -->
+      <!--  <span class="only-desktop">Currently soft-launching.</span> -->
 
         <!-- <span class="inline-image">
           <img src="~/assets/images/img-5.jpg" alt="">
@@ -247,6 +248,36 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data() {
+    return {
+      showContent: false
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.showContent = true;
+    }, 800); // Durée de l'animation en millisecondes 
+  }
 })
+
 </script>
+
+
+<style scoped>
+._intro {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+._intro.hide {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+._intro.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+</style>
