@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://senseartists.club/sitemap.xml
