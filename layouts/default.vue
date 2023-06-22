@@ -29,7 +29,7 @@
         };
       },
       mounted() {
-        // Simule l'animation de disparition de la div pink-screen
+        // Simule l'animation de disparition de la div pink-screen (cf index.vue)
         setTimeout(() => {
           this.showContent = true;
           this.showPinkScreen = false;
