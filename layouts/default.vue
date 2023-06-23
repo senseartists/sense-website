@@ -14,9 +14,8 @@
             </div>
         </div>
     </header>
-    <Nuxt />
+    <Nuxt/>
   </div>
-  
 </template>
 
 <script>
