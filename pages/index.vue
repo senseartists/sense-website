@@ -284,21 +284,21 @@
  }
  
  .pink-screen {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: #A9959E;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   opacity: 1;
-   transition: opacity 0.5s ease;
- }
- 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #A9959E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
  .pink-screen.hide {
-   opacity: 0;
+  visibility: hidden;
  }
  
  .showPinkScreen {
