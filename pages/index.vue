@@ -249,67 +249,6 @@
  
  </template>
  
- <script lang="ts">
- import Vue from 'vue'
- 
- export default Vue.extend({
-   name: 'IndexPage',
-   data() {
-     return {
-       showContent: false
-     }
-   },
-   mounted() {
-     setTimeout(() => {
-       this.showContent = true;
-     }, 800); // Durée de l'animation en millisecondes 
-   }
- })
- 
- </script>
- 
- <style scoped>
- ._intro {
-   transition: opacity 0.5s ease, transform 0.5s ease;
- }
- 
- ._intro.hide {
-   opacity: 0;
-   transform: translateY(100%);
- }
- 
- ._intro.show {
-   opacity: 1;
-   transform: translateY(0);
- }
- 
- .pink-screen {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #A9959E;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
+ <script src="./script.js" lang="ts"></script>
 
- .pink-screen.hide {
-  visibility: hidden;
- }
- 
- .showPinkScreen {
-   display: none;
- }
- 
- .logo-image {
-   max-width: 200px;
-   max-height: 200px;
- }
- 
- 
- </style>
- 
+ <style src="./style.css" scoped></style>
